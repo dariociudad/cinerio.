@@ -1,0 +1,68 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Estilos de header y navegación */
+  .header {
+    background-color: black;
+    color: red;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* Estilos de secciones */
+  .hero {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .cursos {
+    padding: 50px 0;
+    background-color: gray;
+    color: black;
+  }
+  
+  .curso {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Otros estilos según necesidad para las secciones restantes */
+  

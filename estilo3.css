@@ -1,0 +1,83 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagenes/cartoon.jpg);
+}
+.header {
+    background-color: black;
+    color: red;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    color: red;
+    text-decoration: none;
+  }
+
+h1{
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+#AREAS{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 15% 15% 60% 15%;
+    grid-template-rows: 200% 200% 200% 200%;
+   
+    gap:20px;
+
+}
+.caja1{
+    background-image: url(imagenes/cinema.webp);
+}
+.caja2{
+    background-image: url(imagenes/cine.jpg);
+}
+.caja3{
+    background-image: url(imagenes/wo.jpg);
+    background-size: cover;
+}
+.caja4{
+    background-image: url(imagenes/cine_bg.webp);
+    background-size: cover;
+}
+
+
+.caja{
+    border: 1px solid black;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 150px;
+}
+p{
+text-align: center;
+color: aliceblue;
+background-color: black;
+}
+
